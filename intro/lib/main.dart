@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 70.0,
+                radius: 80.0,
                 backgroundImage: AssetImage('images/IMG_8407.JPG'),
               ),
               Text(
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 70.0,
-                    letterSpacing: 3.0,
+                    letterSpacing: 2.5,
                     color: Colors.amberAccent[300]),
               ),
               Text(
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                       EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
                   child: ListTile(
                     leading: Icon(
-                      Icons.email,
+                      Icons.email_outlined,
                       color: Colors.blue,
                     ),
                     title: Text('bhumn98@gmail.com',
